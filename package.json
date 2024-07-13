@@ -7,7 +7,7 @@
     "start": "node app.js"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "tokmak-07.github.io"
   },
   "author": "Ömer Tokmak",
