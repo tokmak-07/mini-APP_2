@@ -7,9 +7,6 @@
   "scripts": {
     "start": "node app.js"
   },
-  "repository": {
-    "url": "tokmak-07.github.io"
-  },
   "author": "Ömer Tokmak",
   "license": "ISC",
   "dependencies": {
