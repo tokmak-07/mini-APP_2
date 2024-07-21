@@ -15,3 +15,6 @@ app.post('/api/init_data',(req,res) =>{
 console.log('Body:')
 console.log(req.body)
 })
+app.listen(port,() =>{
+    console.log(`Example app listeningnon port ${port}`)
+})
