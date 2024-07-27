@@ -4,7 +4,7 @@ const bot = new Bot("7499269454:AAHXC8Alkk85gPC59SYehRRsa__BRBV2uT4");
 const crypto = require('crypto');
 
 // Токен вашего бота Telegram
-const TELEGRAM_BOT_TOKEN = '110201543:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw';
+const TELEGRAM_BOT_TOKEN = '7499269454:AAHXC8Alkk85gPC59SYehRRsa__BRBV2uT4';
 
 // Функция для проверки подлинности данных от Telegram
 const verifyTelegramWebAppData = (telegramInitData) => {
