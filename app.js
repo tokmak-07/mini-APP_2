@@ -3,6 +3,9 @@ import express from "express"
 const bot = new Bot("7499269454:AAHXC8Alkk85gPC59SYehRRsa__BRBV2uT4");
 const crypto = require('crypto');
 
+
+
+// 
 // Токен вашего бота Telegram
 const TELEGRAM_BOT_TOKEN = '7499269454:AAHXC8Alkk85gPC59SYehRRsa__BRBV2uT4';
 
@@ -49,7 +52,7 @@ const telegramInitData = 'auth_date=1609459200&hash=abcdef1234567890&user={%22id
 console.log(verifyTelegramWebAppData(telegramInitData)); // Вывод: true или false
 
 
-
+// 
 
 const bottoken = process.env.BOT_TOKEN
 
