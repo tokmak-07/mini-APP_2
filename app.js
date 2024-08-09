@@ -1,6 +1,7 @@
-
 import express from "express"
+
 const bot = new bot("7499269454:AAHXC8Alkk85gPC59SYehRRsa__BRBV2uT4");
+
 const crypto = require('crypto');
 
 let tg =window.Telegram.WebApp;
