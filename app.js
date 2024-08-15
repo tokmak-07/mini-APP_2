@@ -8,7 +8,7 @@ class Bot {
 }
 const bot = new Bot("7499269454:AAHXC8Alkk85gPC59SYehRRsa__BRBV2uT4");
 
-const crypto = from('crypto');
+import crypto from 'crypto';
 
 let tg =window.Telegram.WebApp;
 
