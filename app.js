@@ -61,37 +61,14 @@ console.log(verifyTelegramWebAppData(telegramInitData)); // Вывод: true и�
 const bottoken = process.env.BOT_TOKEN
 
 
-// app.get('/',(req,res)=>{
-//     res.sendFile('index.html',{root:'.'})
-// })
+ app.get('/',(req,res)=>{
+      res.sendFile('index.html',{root:'.'})
+})
 
-// app.post('/api/init_data',(req,res) =>{
-// console.log('Body:')
-// console.log(req.body)
-// })
-// app.listen(port,() =>{
-//     console.log(`Example app listeningnon port ${port}`)
-// })
-const express = require('express');
-
-// Создаём экземпляр приложения
-
-co
-const app = express();
-
-// Определяем маршрут для корневого пути
-app.get('/', (req, res) => {
-    res.send('Hello World!');
-});
-
-
-
-// Устанавливаем порт и запускаем сервер
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-    
-    cons
-
- 
-console.log(`Server is running on port ${PORT}`);
-});
+ app.post('/api/init_data',(req,res) =>{
+ console.log('Body:')
+ console.log(req.body)
+ })
+ app.listen(port,() =>{
+    console.log(`Example app listeningnon port ${port}`)
+ })
